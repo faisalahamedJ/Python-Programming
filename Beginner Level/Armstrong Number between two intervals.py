@@ -14,6 +14,6 @@ if(isinstance((a and b),int)):
             mult += pow(rem,power)
             num //= 10
         if(temp == mult):
-            print mult
+            print mult,
 else:
     print "Invalid Input"
