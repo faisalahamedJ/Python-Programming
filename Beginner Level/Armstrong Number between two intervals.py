@@ -1,5 +1,5 @@
-a = input("Enter the strating value \n")
-b = input("Enter the ending value\n")
+a = input()
+b = input()
 if(isinstance((a and b),int)):
     for num in range (a,b):
         temp = num
