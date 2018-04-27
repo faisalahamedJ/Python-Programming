@@ -1,7 +1,7 @@
-num = input("Enter the number to check")
+num = input()
 if(1 <= num <= 100000):
-    print("The given number is Positive")
+    print("Positive")
 elif(num <= -1):
-    print("The given number is negative")
+    print("Negative")
 else:
-    print("The given number is Zero")
+    print("Zero")
