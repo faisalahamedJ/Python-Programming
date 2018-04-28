@@ -1,9 +1,8 @@
 x = []
 N = input()
-i = 0
-while i < N :
-    b = input()
-    x.append(b)
-    i += 1
-x.sort()
-print x[0]
+a = raw_input()
+x = a.split(" ")
+x = map(int, x)
+if(len(x) == N):
+    x.sort()
+    print x[0]
